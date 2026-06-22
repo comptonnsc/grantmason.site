@@ -1,293 +1,450 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Grant Mason | Seersucker & Silence</title>
-  <meta name="description" content="The official author site of Grant Mason, memoirist and writer of Seersucker & Silence: Growing Up Between Privilege and Silence." />
-  <meta name="theme-color" content="#061a33" />
-  <link rel="canonical" href="https://grantmason.site/" />
-  <meta property="og:title" content="Grant Mason | Seersucker & Silence" />
-  <meta property="og:description" content="A Southern memoir about family, class, identity, resilience, and the stories that remain long after they are spoken." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://grantmason.site/" />
-  <meta property="og:image" content="https://grantmason.site/assets/cover-web.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Grant Mason",
-    "url": "https://grantmason.site/",
-    "jobTitle": "Memoirist and Writer",
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=61590642546391",
-      "https://www.instagram.com/grantmasonauthor/"
-    ],
-    "worksFor": {"@type":"Organization","name":"Grant Mason Author"}
-  }
-  </script>
-  <style>
-    :root{
-      --navy:#061a33;
-      --navy2:#0b2748;
-      --blue:#213883;
-      --gold:#c5a059;
-      --gold2:#e7c77c;
-      --cream:#f7f0df;
-      --paper:#fffaf0;
-      --ink:#0d1728;
-      --muted:#6e6a60;
-      --line:rgba(197,160,89,.35);
-      --shadow:0 28px 80px rgba(0,0,0,.25);
-      --serif:'Cormorant Garamond', Georgia, serif;
-      --sans:'Inter', Arial, sans-serif;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;overflow-x:hidden}
-    body.lock{overflow:hidden}
-    img{max-width:100%;display:block}
-    a{color:inherit;text-decoration:none}
-    .skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}.skip:focus{left:1rem;top:1rem;width:auto;height:auto;background:white;color:#000;padding:.75rem;z-index:9999}
-    .nav{position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:14px clamp(18px,4vw,60px);background:linear-gradient(180deg,rgba(6,26,51,.94),rgba(6,26,51,.72));backdrop-filter:blur(16px);border-bottom:1px solid rgba(197,160,89,.22)}
-    .brand{display:flex;gap:12px;align-items:center;color:white;letter-spacing:.22em;text-transform:uppercase;font-size:.78rem;font-weight:700}.brand img{width:42px;height:42px;object-fit:contain}.brand span{white-space:nowrap}
-    .links{display:flex;gap:22px;align-items:center;color:rgba(255,255,255,.86);font-size:.78rem;text-transform:uppercase;letter-spacing:.15em}.links a:hover{color:var(--gold2)}.nav-cta{border:1px solid var(--gold);color:#071526;background:var(--gold2);padding:.72rem 1rem;border-radius:999px;font-weight:800}.menu{display:none;background:transparent;border:1px solid rgba(255,255,255,.25);color:white;border-radius:999px;padding:.6rem .8rem}
-    .hero{min-height:100vh;position:relative;background:#061a33;color:white;display:grid;place-items:center;overflow:hidden;padding:112px clamp(18px,4vw,70px) 54px}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,26,51,.98) 0%,rgba(6,26,51,.88) 42%,rgba(6,26,51,.45) 66%,rgba(6,26,51,.82) 100%),url('assets/kentucky-derby-web.jpg') center/cover no-repeat;transform:scale(1.04);animation:slowpan 18s ease-in-out infinite alternate}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 62% 42%,rgba(197,160,89,.18),transparent 36%),linear-gradient(180deg,transparent 72%,var(--paper));pointer-events:none}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.72fr);gap:clamp(34px,6vw,90px);align-items:center;max-width:1280px;width:100%}.seal{width:138px;margin-bottom:26px;filter:drop-shadow(0 10px 20px rgba(0,0,0,.4))}.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.28em;color:var(--gold2);font-weight:800}.hero h1{font-family:var(--serif);font-weight:600;line-height:.86;letter-spacing:.035em;text-transform:uppercase;font-size:clamp(4rem,10vw,9.8rem);margin:.25rem 0}.subtitle{font-family:var(--serif);font-style:italic;color:#f2cd84;font-size:clamp(1.45rem,3vw,2.6rem);line-height:1.1;margin:0 0 1.2rem}.hero-copy{font-size:clamp(1rem,1.4vw,1.25rem);max-width:650px;color:rgba(255,255,255,.86)}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:1rem 1.25rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;border:1px solid transparent;transition:.25s ease;cursor:pointer}.btn.primary{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#061a33;box-shadow:0 10px 34px rgba(197,160,89,.27)}.btn.secondary{border-color:rgba(255,255,255,.36);color:white;background:rgba(255,255,255,.06)}.btn.dark{background:var(--navy);color:white}.btn.light{background:white;color:var(--navy)}.btn:hover{transform:translateY(-2px)}.cover-stage{position:relative;display:grid;place-items:center}.cover-stage:before{content:"";position:absolute;width:140%;height:95%;border:1px solid var(--line);border-radius:50%;filter:blur(.2px);opacity:.5}.cover{width:min(380px,72vw);border-radius:4px;box-shadow:0 42px 110px rgba(0,0,0,.55);transform:rotate(1deg)}.cover-badge{position:absolute;right:5%;bottom:9%;background:rgba(6,26,51,.92);border:1px solid var(--gold);color:white;padding:1rem;border-radius:16px;box-shadow:var(--shadow);max-width:190px}.cover-badge strong{font-family:var(--serif);font-size:1.4rem;color:var(--gold2)}
-    @keyframes slowpan{from{transform:scale(1.04) translateX(-1%)}to{transform:scale(1.1) translateX(1.5%)}}
-    .section{padding:clamp(72px,9vw,128px) clamp(20px,5vw,76px);position:relative}.inner{max-width:1220px;margin:0 auto}.quote-panel{background:var(--paper);text-align:center;padding:clamp(70px,10vw,140px) 22px}.quote-panel .mark{width:74px;margin:0 auto 20px;opacity:.9}.bigquote{font-family:var(--serif);font-size:clamp(2.4rem,6vw,6rem);line-height:.98;color:var(--navy);font-weight:500;max-width:1020px;margin:0 auto}.bigquote em{color:var(--gold);font-style:italic}.section-title{font-family:var(--serif);font-size:clamp(2.7rem,6vw,5.6rem);line-height:.95;color:var(--navy);font-weight:600;margin:0}.kicker{letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-size:.78rem;font-weight:900;margin-bottom:12px}.deck{font-size:1.08rem;color:var(--muted);max-width:760px}.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,84px);align-items:center}.world{background:linear-gradient(180deg,var(--paper),#fff)}.image-card{position:relative;overflow:hidden;border-radius:28px;box-shadow:var(--shadow);background:var(--navy)}.image-card img{width:100%;height:620px;object-fit:cover;filter:saturate(.93) contrast(1.02)}.caption{position:absolute;left:22px;right:22px;bottom:22px;background:rgba(6,26,51,.82);color:white;border:1px solid rgba(197,160,89,.5);border-radius:18px;padding:18px}.caption b{font-family:var(--serif);font-size:1.6rem;color:var(--gold2)}
-    .book-section{background:linear-gradient(135deg,#071526,var(--navy2));color:white;overflow:hidden}.book-section:before{content:"";position:absolute;right:-12%;top:4%;width:520px;height:520px;background:url('assets/logo-trans-web.png') center/contain no-repeat;opacity:.055}.book-section .section-title{color:white}.book-layout{display:grid;grid-template-columns:minmax(280px,430px) 1fr;gap:clamp(34px,6vw,90px);align-items:center}.book-cover{box-shadow:0 50px 110px rgba(0,0,0,.55);border-radius:4px}.synopsis{font-size:1.08rem;color:rgba(255,255,255,.82);max-width:730px}.meta-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:32px 0}.meta{border:1px solid rgba(197,160,89,.35);border-radius:18px;padding:18px;background:rgba(255,255,255,.04)}.meta span{display:block;color:var(--gold2);font-family:var(--serif);font-size:1.35rem}.meta small{color:rgba(255,255,255,.68);text-transform:uppercase;letter-spacing:.14em;font-weight:700}
-    .timeline{background:#fffaf0}.timeline-track{margin-top:52px;display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative}.timeline-track:before{content:"";position:absolute;left:0;right:0;top:18px;height:1px;background:var(--line)}.mile{position:relative;padding-top:52px;padding-right:16px}.dot{position:absolute;top:9px;width:18px;height:18px;background:var(--navy);border:4px solid var(--gold);border-radius:50%;z-index:1}.mile h3{font-family:var(--serif);font-size:1.65rem;color:var(--navy);line-height:1;margin:0 0 8px}.mile p{font-size:.92rem;color:var(--muted);margin:0}.gallery{background:#061a33;color:white}.gallery .section-title{color:white}.gallery-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;margin-top:42px}.tile{position:relative;min-height:360px;border-radius:28px;overflow:hidden;background:#111;box-shadow:0 24px 70px rgba(0,0,0,.3)}.tile.small{min-height:270px}.tile img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;filter:saturate(.92) contrast(1.03)}.tile:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(6,26,51,.88))}.tile-content{position:absolute;left:24px;right:24px;bottom:24px;z-index:1}.tile-content h3{font-family:var(--serif);font-size:2.1rem;margin:0;color:var(--gold2)}.tile-content p{margin:.3rem 0 0;color:rgba(255,255,255,.82)}.stack{display:grid;gap:22px}.about{background:linear-gradient(180deg,#fff,var(--paper))}.portrait-wrap{border-radius:28px;overflow:hidden;box-shadow:var(--shadow);background:var(--navy);height:680px}.portrait-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top}.bio-text p{font-size:1.05rem;color:#4d4a45}.signature{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:2.2rem;margin-top:24px}.excerpt{background:#f2e8d4}.reader{background:rgba(255,255,255,.72);border:1px solid rgba(197,160,89,.35);border-radius:28px;padding:clamp(28px,5vw,70px);box-shadow:0 30px 90px rgba(25,16,4,.08)}.reader p{font-family:var(--serif);font-size:clamp(1.35rem,2.2vw,2.1rem);line-height:1.35;color:#182235}.reader p:first-letter{font-size:4.2rem;float:left;line-height:.82;padding-right:8px;color:var(--gold)}
-    .vip{background:linear-gradient(135deg,#061a33,#071d3b);color:white}.vip:before{content:"";position:absolute;left:-140px;bottom:-180px;width:560px;height:560px;background:url('assets/logo-trans-web.png') center/contain no-repeat;opacity:.045}.vip .section-title{color:white}.form-card{background:rgba(255,255,255,.065);border:1px solid rgba(197,160,89,.36);border-radius:30px;padding:clamp(24px,4vw,44px);box-shadow:var(--shadow)}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;font-weight:900;color:var(--gold2);margin:0 0 7px}input,select,textarea{width:100%;border:1px solid rgba(197,160,89,.35);border-radius:14px;padding:14px 15px;background:rgba(255,255,255,.96);color:#111;font:inherit}textarea{min-height:128px;resize:vertical}.full{grid-column:1/-1}.fine{font-size:.83rem;color:rgba(255,255,255,.64);margin-top:14px}.reservation{background:#fff}.reservation-card{border:1px solid rgba(197,160,89,.45);border-radius:34px;box-shadow:0 30px 90px rgba(6,26,51,.08);overflow:hidden;display:grid;grid-template-columns:.85fr 1.15fr}.reserve-art{background:linear-gradient(180deg,rgba(6,26,51,.10),rgba(6,26,51,.86)),url('assets/cover-web.png') center/cover no-repeat;min-height:520px;display:flex;align-items:flex-end;padding:34px;color:white}.reserve-art h3{font-family:var(--serif);font-size:2.8rem;line-height:.95;margin:0}.reserve-form{padding:clamp(26px,5vw,52px)}.reserve-form label{color:var(--navy)}.reserve-form .fine{color:var(--muted)}.quotebook{background:#061a33;color:white}.quote-tool{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch;margin-top:36px}.quote-output{border:1px solid rgba(197,160,89,.44);border-radius:26px;padding:30px;background:rgba(255,255,255,.06);display:flex;flex-direction:column;justify-content:center}.quote-output p{font-family:var(--serif);font-size:2.2rem;line-height:1.12;color:var(--gold2);margin:0}.social-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.social-row a,.social-row button{border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.07);color:white;border-radius:999px;padding:.75rem 1rem;font-weight:800;cursor:pointer}.contact{background:linear-gradient(180deg,var(--paper),#fff)}.contact-card{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;background:white;border-radius:34px;box-shadow:0 30px 90px rgba(6,26,51,.08);border:1px solid rgba(197,160,89,.28);padding:clamp(24px,5vw,54px)}.contact-card label{color:var(--navy)}.contact-info{padding-right:20px}.contact-info a{color:var(--blue);font-weight:800}.footer{background:#061a33;color:white;text-align:center;padding:70px 22px;position:relative;overflow:hidden}.footer:before{content:"";position:absolute;inset:0;background:url('assets/logo-trans-web.png') center/360px no-repeat;opacity:.035}.footer-inner{position:relative;z-index:1}.footer-logo{width:160px;margin:0 auto 22px}.footer h2{font-family:var(--serif);font-size:2.7rem;letter-spacing:.15em;text-transform:uppercase;margin:0}.footer p{color:rgba(255,255,255,.68)}.mobile-panel{display:none}.success{display:none;margin-top:12px;border:1px solid rgba(197,160,89,.45);background:rgba(197,160,89,.12);border-radius:14px;padding:12px;color:inherit}.modal{position:fixed;inset:0;z-index:90;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(3,10,20,.72);backdrop-filter:blur(9px)}.modal.show{display:flex}.modal-card{max-width:560px;width:100%;background:#fffaf0;border-radius:30px;padding:34px;position:relative;box-shadow:0 40px 120px rgba(0,0,0,.44);border:1px solid var(--gold)}.modal-card img{width:98px;margin:0 auto 16px}.modal-card h2{font-family:var(--serif);font-size:3rem;line-height:.92;color:var(--navy);text-align:center;margin:0 0 8px}.modal-card p{text-align:center;color:var(--muted)}.close{position:absolute;right:16px;top:14px;border:0;background:transparent;font-size:1.9rem;cursor:pointer;color:var(--navy)}.modal label{color:var(--navy)}.chat{position:fixed;right:18px;bottom:18px;z-index:70}.chat-toggle{width:62px;height:62px;border-radius:50%;border:1px solid var(--gold);background:var(--navy);color:white;box-shadow:var(--shadow);font-weight:900;cursor:pointer}.chat-panel{display:none;position:absolute;right:0;bottom:76px;width:min(360px,calc(100vw - 36px));background:white;border-radius:24px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}.chat-panel.show{display:block}.chat-head{background:var(--navy);color:white;padding:18px}.chat-head b{font-family:var(--serif);font-size:1.5rem;color:var(--gold2)}.chat-body{padding:18px}.suggestions{display:grid;gap:9px;margin-bottom:14px}.suggestions button{border:1px solid rgba(6,26,51,.14);background:#f7f0df;border-radius:12px;padding:10px;text-align:left;cursor:pointer}.answer{background:#f8f4eb;border-radius:14px;padding:12px;color:#3b372f;font-size:.93rem}.chat-body label{color:var(--navy);margin-top:12px}
-    @media(max-width:980px){.links{display:none}.menu{display:block}.mobile-panel{position:fixed;display:none;top:70px;left:14px;right:14px;background:rgba(6,26,51,.97);border:1px solid var(--line);border-radius:22px;padding:16px;z-index:65}.mobile-panel.show{display:grid;gap:12px}.mobile-panel a{color:white;padding:12px;border-bottom:1px solid rgba(255,255,255,.08)}.hero-grid,.split,.book-layout,.reservation-card,.contact-card,.quote-tool{grid-template-columns:1fr}.cover-stage{order:-1}.hero{text-align:center}.seal{margin-left:auto;margin-right:auto}.actions{justify-content:center}.meta-row{grid-template-columns:1fr}.timeline-track{grid-template-columns:1fr;gap:24px}.timeline-track:before{left:9px;right:auto;top:0;bottom:0;width:1px;height:auto}.mile{padding-left:42px;padding-top:0}.dot{left:0;top:3px}.gallery-grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.portrait-wrap{height:560px}.reserve-art{min-height:340px}.brand span{display:none}}
-    @media(max-width:560px){.hero h1{font-size:3.25rem}.subtitle{font-size:1.35rem}.cover{width:min(280px,80vw)}.section{padding:68px 18px}.image-card img{height:430px}.tile{min-height:310px}.bigquote{font-size:2.5rem}.modal-card{padding:26px 18px}.footer h2{font-size:1.85rem}.quote-output p{font-size:1.55rem}}
-    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-  </style>
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-  <nav class="nav" aria-label="Primary navigation">
-    <a class="brand" href="#top" aria-label="Grant Mason home"><img src="assets/favicon.png" alt="GM monogram"><span>Grant Mason</span></a>
-    <div class="links">
-      <a href="#memoir">Memoir</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#excerpt">Excerpt</a><a href="#contact">Contact</a>
-      <a href="https://www.facebook.com/profile.php?id=61590642546391" target="_blank" rel="noopener">Facebook</a>
-      <a href="https://www.instagram.com/grantmasonauthor/" target="_blank" rel="noopener">Instagram</a>
-      <a class="nav-cta" href="#reserve">Reserve</a>
-    </div>
-    <button class="menu" id="menuBtn" aria-expanded="false">Menu</button>
-  </nav>
-  <div class="mobile-panel" id="mobilePanel">
-    <a href="#memoir">Memoir</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#excerpt">Excerpt</a><a href="#vip">VIP</a><a href="#reserve">Reserve First Edition</a><a href="#contact">Contact</a>
-  </div>
-  <header class="hero" id="top">
-    <div class="hero-grid">
-      <div>
-        <img class="seal" src="assets/grant-mason-logo-transparent.png" alt="Grant Mason GM monogram seal">
-        <div class="eyebrow">Official Author Site</div>
-        <h1>Seersucker<br>&amp; Silence</h1>
-        <p class="subtitle">Growing Up Between Privilege and Silence</p>
-        <p class="hero-copy">A Southern memoir about family, class, identity, resilience, belonging, and the stories that remain long after they are spoken.</p>
-        <div class="actions">
-          <a class="btn primary" href="#reserve">Reserve First Edition</a>
-          <button class="btn secondary" data-open-vip>Join Grant Mason VIP</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Seersucker &amp; Silence – A debut Southern memoir by Grant Mason." />
+    <title>Grant Mason | Seersucker &amp; Silence</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="brand">
+          <img src="images/logo-trans.png" alt="GM monogram" />
+          <span class="sr-only">Grant Mason</span>
         </div>
-      </div>
-      <div class="cover-stage">
-        <img class="cover" src="assets/cover-web.png" alt="Book cover for Seersucker & Silence by Grant Mason">
-        <div class="cover-badge"><strong>First Edition</strong><br><span>Reservation list now open</span></div>
-      </div>
-    </div>
-  </header>
-  <main id="main">
-    <section class="quote-panel">
-      <img class="mark" src="assets/favicon.png" alt="GM monogram">
-      <div class="bigquote">Some stories are <em>inherited.</em><br>Others must be survived.</div>
-    </section>
-
-    <section class="section world" id="world">
-      <div class="inner split">
-        <div class="image-card"><img src="assets/kentucky-derby-web.jpg" alt="Kentucky Derby horses racing at Churchill Downs"><div class="caption"><b>Derby Light</b><br>Tradition, spectacle, and the language of belonging.</div></div>
-        <div>
-          <div class="kicker">The world before the silence</div>
-          <h2 class="section-title">A specific Kentucky.</h2>
-          <p class="deck">Before there was distance, there was a world of horse farms, polished manners, family expectations, and inherited performance. <em>Seersucker & Silence</em> begins in that world, then follows what happens when the image can no longer hold.</p>
-          <div class="actions"><a class="btn dark" href="#memoir">Enter the Memoir</a><a class="btn light" href="#gallery">View Gallery</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section book-section" id="memoir">
-      <div class="inner book-layout">
-        <img class="book-cover" src="assets/cover-web.png" alt="Seersucker & Silence cover">
-        <div>
-          <div class="kicker">Upcoming First Edition Memoir</div>
-          <h2 class="section-title">Seersucker &amp; Silence</h2>
-          <p class="subtitle">Growing Up Between Privilege and Silence</p>
-          <p class="synopsis"><em>Seersucker & Silence</em> traces the distance between outward privilege and private fracture. Set against Kentucky horse country, family mythology, sudden loss, and the long passage toward Charleston, the memoir examines what it means to inherit a name, survive its collapse, and build an identity beyond appearances.</p>
-          <div class="meta-row">
-            <div class="meta"><span>Memoir</span><small>Literary Nonfiction</small></div>
-            <div class="meta"><span>Southern</span><small>Kentucky to Charleston</small></div>
-            <div class="meta"><span>First Edition</span><small>Reservation List</small></div>
+        <ul class="nav-links">
+          <li><a href="#memoir">Memoir</a></li>
+          <li><a href="#about">Author</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#sample">Excerpt</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61590642546391" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/grantmasonauthor/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <img src="images/logo-trans.png" alt="GM Monogram" class="hero-monogram" />
+          <h1>
+            <span>Seersucker</span><br />&amp; Silence
+          </h1>
+          <p class="subtitle">Growing up between privilege and silence</p>
+          <div class="hero-actions">
+            <a href="#reserve" class="btn primary">Reserve First Edition</a>
+            <a href="#vip" class="btn secondary">Join VIP</a>
           </div>
-          <div class="actions"><a class="btn primary" href="#reserve">Reserve First Edition</a><a class="btn secondary" href="#excerpt">Read Excerpt</a></div>
+        </div>
+        <div class="hero-cover">
+          <img src="images/cover.png" alt="Seersucker &amp; Silence cover" />
         </div>
       </div>
     </section>
-
-    <section class="section timeline" id="timeline">
-      <div class="inner">
-        <div class="kicker">The memoir arc</div>
-        <h2 class="section-title">From inheritance to identity.</h2>
-        <p class="deck">The site follows the same emotional movement as the book: Kentucky, expectation, silence, fracture, distance, Charleston, reflection.</p>
-        <div class="timeline-track">
-          <div class="mile"><span class="dot"></span><h3>Kentucky</h3><p>Horse country, ritual, reputation, and the early lessons of visibility.</p></div>
-          <div class="mile"><span class="dot"></span><h3>Privilege</h3><p>The comfort of access, the performance of class, and the illusion of permanence.</p></div>
-          <div class="mile"><span class="dot"></span><h3>Silence</h3><p>What families know, what they do not say, and what children learn to carry.</p></div>
-          <div class="mile"><span class="dot"></span><h3>Fracture</h3><p>The moment the story changes and the old protections disappear.</p></div>
-          <div class="mile"><span class="dot"></span><h3>Charleston</h3><p>Distance, reinvention, and the beginning of a self made outside inheritance.</p></div>
-          <div class="mile"><span class="dot"></span><h3>Reflection</h3><p>The work of naming the past without letting it own the future.</p></div>
-        </div>
+    <!-- Memoir Section -->
+    <section class="memoir" id="memoir">
+      <h2>A polished world. A private collapse. A life rebuilt beyond inheritance.</h2>
+      <p>
+        Set between Kentucky horse farms, family expectations, Charleston distance, and the silence
+        surrounding privilege, <strong>Seersucker &amp; Silence</strong> follows the emotional education
+        of someone raised to appear secure while learning how quickly security can vanish.
+      </p>
+      <blockquote>
+        <p>
+          “The story is not about money. It is about what money teaches a child to believe is
+          permanent, and what remains when permanence fails.”
+        </p>
+      </blockquote>
+      <div class="memoir-actions">
+        <a href="#reserve" class="btn primary">Reserve First Edition</a>
+        <a href="#sample" class="btn secondary">Read a Sample</a>
       </div>
     </section>
 
-    <section class="section gallery" id="gallery">
-      <div class="inner">
-        <div class="kicker">Visual essays</div>
-        <h2 class="section-title">Kentucky to Charleston.</h2>
-        <p class="deck" style="color:rgba(255,255,255,.72)">A visual companion to the memoir: tradition, distance, architecture, water, and the quiet shadow of family memory.</p>
-        <div class="gallery-grid">
-          <article class="tile"><img src="assets/kentucky-derby-web.jpg" alt="Kentucky Derby at Churchill Downs"><div class="tile-content"><h3>Derby Light</h3><p>The public language of Kentucky tradition.</p></div></article>
-          <div class="stack">
-            <article class="tile small"><img src="assets/charleston-harbor-web.jpg" alt="Charleston harbor at sunset"><div class="tile-content"><h3>Charleston Shadow</h3><p>Water, distance, and reinvention.</p></div></article>
-            <article class="tile small"><img src="assets/charleston-architecture-web.jpg" alt="Historic Charleston building"><div class="tile-content"><h3>Old Facades</h3><p>What beautiful surfaces hide.</p></div></article>
+    <!-- Quote Section -->
+    <section class="quote-section">
+      <blockquote class="author-quote">
+        <p>“Some stories are inherited. Others must be survived.”</p>
+        <footer>— Grant Mason</footer>
+      </blockquote>
+    </section>
+    <!-- Author Section -->
+    <section class="author" id="about">
+      <h2>About the Author</h2>
+      <div class="author-wrapper">
+        <div class="author-photo">
+          <img src="images/selfie.png" alt="Grant Mason" />
+        </div>
+        <div class="author-content">
+          <p>
+            Grant Mason writes about family, identity, class, resilience, belonging, memory, and the
+            distance between public appearances and private realities. Raised in Kentucky horse
+            country and shaped by the contradictions of Southern tradition, privilege, collapse and
+            reinvention, his work examines what families teach in silence and what a person must
+            eventually learn alone.
+          </p>
+          <p>
+            Now connected to Charleston, South Carolina, Mason brings a reflective Southern
+            perspective to literary nonfiction. His debut memoir <em>Seersucker &amp; Silence</em>
+            explores inheritance, loss, personal growth, and the long process of building a life
+            beyond the mythology of where one came from.
+          </p>
+          <p class="contact-inline">
+            <a href="mailto:hello@grantmason.site">hello@grantmason.site</a> &nbsp;|&nbsp;
+            <a href="tel:+18438916209">(843) 891‑6209</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline Section -->
+    <section class="timeline" id="journey">
+      <h2>Journey</h2>
+      <div class="timeline-steps">
+        <!-- Step 1: Kentucky -->
+        <div class="timeline-step" style="background-image: url('images/calumet.webp');">
+          <div class="timeline-content">
+            <h3>Kentucky</h3>
+            <p>Horse farms, white fences and rolling bluegrass hills—the outward ease of privilege.</p>
+          </div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <!-- Step 2: Family Expectations -->
+        <div class="timeline-step" style="background-image: url('images/ky_home.jpeg');">
+          <div class="timeline-content">
+            <h3>Family Expectations</h3>
+            <p>An interior life of image, social codes and unspoken rules beneath achievement.</p>
+          </div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <!-- Step 3: Fracture -->
+        <div class="timeline-step" style="background-image: url('images/derby_party.webp');">
+          <div class="timeline-content">
+            <h3>Fracture</h3>
+            <p>A sudden break in security and belonging—when the party ends and reality intrudes.</p>
+          </div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <!-- Step 4: Lexington -->
+        <div class="timeline-step" style="background-image: url('images/keeneland.jpg');">
+          <div class="timeline-content">
+            <h3>Lexington</h3>
+            <p>A senior year between disruption and reinvention, racing toward adulthood.</p>
+          </div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <!-- Step 5: Charleston -->
+        <div class="timeline-step" style="background-image: url('images/mint_julep.png');">
+          <div class="timeline-content">
+            <h3>Charleston</h3>
+            <p>College, distance and the first real claim to independence—savoring a new flavor of life.</p>
+          </div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <!-- Step 6: Reflection -->
+        <div class="timeline-step" style="background-image: url('images/dads_office.jpg');">
+          <div class="timeline-content">
+            <h3>Reflection</h3>
+            <p>Rebuilding identity beyond inheritance and learning what lasts when old myths fade.</p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="section about" id="about">
-      <div class="inner split">
-        <div class="bio-text">
-          <div class="kicker">About the author</div>
-          <h2 class="section-title">Grant Mason</h2>
-          <p>Grant Mason is a Southern memoirist and writer whose work explores family, identity, class, belonging, memory, and the distance between public appearances and private realities.</p>
-          <p>Raised in Kentucky horse country and shaped by a world of tradition, performance, and sudden loss, Mason writes literary nonfiction rooted in lived experience. His debut memoir, <em>Seersucker & Silence</em>, examines privilege, family expectations, resilience, and the long work of becoming a person apart from what one inherits.</p>
-          <p>Now connected to Charleston, South Carolina, Mason’s work carries the contrast between inland horse country and coastal reinvention, between inherited silence and the courage required to speak plainly.</p>
-          <div class="signature">Grant Mason</div>
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h2>Visual Memoir Gallery</h2>
+      <p class="gallery-intro">The landscapes behind the story.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-title="Bluegrass Distance" data-description="Kentucky seen through memory." data-image="images/derby.webp" style="background-image: url('images/derby.webp')">
+          <div class="overlay">
+            <h3>Bluegrass Distance</h3>
+            <p>Kentucky seen through memory.</p>
+          </div>
         </div>
-        <div class="portrait-wrap"><img src="assets/author-web.jpg" alt="Grant Mason author portrait"></div>
+        <div class="gallery-item" data-title="Charleston Harbor" data-description="Beauty with distance." data-image="images/charleston1.jpeg" style="background-image: url('images/charleston1.jpeg')">
+          <div class="overlay">
+            <h3>Charleston Harbor</h3>
+            <p>Beauty with distance.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-title="Sunset Reflection" data-description="The theater of tradition." data-image="images/charleston2.jpeg" style="background-image: url('images/charleston2.jpeg')">
+          <div class="overlay">
+            <h3>Sunset Reflection</h3>
+            <p>The theater of tradition.</p>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- Sample Chapter Section -->
+    <section class="sample" id="sample">
+      <h2>Sample Chapter</h2>
+      <p class="sample-intro">A taste of the memoir’s voice.</p>
+      <div class="sample-content">
+        <p>
+          If you grew up where I grew up, the fences were never just fences. They were the clean
+          white lines around what people wanted seen, the boundaries that made order look natural.
+          Behind them, horses moved like money made graceful. Houses sat far enough from the road to
+          suggest privacy and close enough to remind you that privacy was also a form of display.
+        </p>
+        <p class="sample-footer">
+          <a href="sample-chapter.pdf" class="btn tertiary" download target="_blank">Open Full Sample (PDF)</a>
+        </p>
+      </div>
+    </section>
+    <!-- VIP Section -->
+    <section class="vip" id="vip">
+      <h2>Join the Grant Mason VIP List</h2>
+      <p>Receive first-edition announcements, advance excerpts, cover reveals, publication updates, and early access to future releases.</p>
+      <form name="vip-form" method="POST" data-netlify="true" class="vip-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="vip-first">First Name</label>
+            <input type="text" id="vip-first" name="first_name" required />
+          </div>
+          <div class="form-group">
+            <label for="vip-last">Last Name</label>
+            <input type="text" id="vip-last" name="last_name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="vip-email">Email Address</label>
+          <input type="email" id="vip-email" name="email" required />
+        </div>
+        <button type="submit" class="btn primary">Join the VIP List</button>
+        <p class="form-disclaimer">Your information is used only for Grant Mason book news, release updates, and reader communications.</p>
+      </form>
+    </section>
+    <!-- Reservation Section -->
+    <section class="reserve" id="reserve">
+      <h2>First Edition Reservation</h2>
+      <p>Reserve your place for the first edition. This reservation records your interest in the first-edition memoir and allows Grant Mason to notify you when pre-order access becomes available.</p>
+      <form name="reservation-form" method="POST" data-netlify="true" class="reserve-form">
+        <div class="form-group">
+          <label for="res-name">Full Name</label>
+          <input type="text" id="res-name" name="full_name" required />
+        </div>
+        <div class="form-group">
+          <label for="res-email">Email Address</label>
+          <input type="email" id="res-email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="res-interest">Reservation Interest</label>
+          <select id="res-interest" name="interest">
+            <option value="Signed first edition">Signed first edition</option>
+            <option value="First edition only">First edition only</option>
+            <option value="Book club copy">Book club copy</option>
+            <option value="Reviewer or media copy">Reviewer or media copy</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="res-note">Optional Note</label>
+          <textarea id="res-note" name="note" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn primary">Reserve First Edition</button>
+      </form>
+    </section>
 
-    <section class="section excerpt" id="excerpt">
-      <div class="inner">
-        <div class="kicker">Opening excerpt</div>
-        <h2 class="section-title">Read a sample.</h2>
-        <div class="reader">
-          <p>If you grew up in the kind of Kentucky people imagine from a distance, you learned early that beauty could become a form of instruction. White fences did not simply mark property. They taught order. Horse farms did not merely hold horses. They held a version of life everyone agreed to admire. Even silence had polish there. It could sit beside you at dinner, walk through a country club dining room, or ride home in the back seat of a Mercedes without ever announcing itself.</p>
-          <p>I did not know then that a family could look complete from the outside while its private language was already failing. I only knew that certain things were not discussed, certain questions were redirected, and certain disappointments were handled with posture. This book begins in that space between what was visible and what was true.</p>
+    <!-- Purchase Section -->
+    <section class="purchase" id="purchase">
+      <h2>Purchase the Memoir</h2>
+      <p>Choose your preferred format. Links will be available closer to publication.</p>
+      <div class="purchase-grid">
+        <div class="purchase-item">
+          <h3>Digital</h3>
+          <p>Download the e‑book version of <em>Seersucker &amp; Silence</em>.</p>
+          <button class="btn secondary" disabled>Coming Soon</button>
+        </div>
+        <div class="purchase-item">
+          <h3>Hardcover</h3>
+          <p>Own a beautifully bound, first‑edition copy.</p>
+          <button class="btn secondary" disabled>Coming Soon</button>
+        </div>
+        <div class="purchase-item">
+          <h3>Audiobook</h3>
+          <p>Listen to Grant Mason narrate the memoir in his own voice.</p>
+          <button class="btn secondary" disabled>Coming Soon</button>
         </div>
       </div>
     </section>
-
-    <section class="section vip" id="vip">
-      <div class="inner split">
-        <div>
-          <div class="kicker">Grant Mason VIP</div>
-          <h2 class="section-title">First access. Private updates. Future releases.</h2>
-          <p class="deck" style="color:rgba(255,255,255,.76)">Join the VIP list for advance excerpts, first-edition announcements, cover updates, private essays, book club materials, and early preorder information.</p>
+    <!-- Phrase Generator Section -->
+    <section class="phrase" id="phrase">
+      <h2>Southern Phrase Generator</h2>
+      <p>Type a plain phrase and translate it into a witty Southern expression.</p>
+      <div class="phrase-wrapper">
+        <input type="text" id="inputPhrase" placeholder="Your Phrase" />
+        <button id="generatePhrase" class="btn secondary">Southernize It</button>
+      </div>
+      <p id="phraseOutput" class="phrase-output"></p>
+    </section>
+    <!-- Reader Assistant Section -->
+    <section class="assistant" id="assistant">
+      <h2>Reader Assistant</h2>
+      <p>Ask about the book. I can answer common questions about Grant Mason, Seersucker &amp; Silence, first-edition reservations, VIP updates, book clubs, and contact options.</p>
+      <div class="assistant-wrapper">
+        <input type="text" id="assistantInput" placeholder="Your question" />
+        <button id="assistantSend" class="btn secondary">Send</button>
+      </div>
+      <div id="assistantResponse" class="assistant-response"></div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>For reader notes, book club inquiries, interviews, media requests, speaking opportunities, or questions about <em>Seersucker &amp; Silence</em>, use the form below.</p>
+      <p class="contact-inline">
+        <a href="mailto:hello@grantmason.site">hello@grantmason.site</a> &nbsp;|&nbsp;
+        <a href="tel:+18438916209">(843) 891‑6209</a>
+      </p>
+      <form name="contact-form" method="POST" data-netlify="true" class="contact-form">
+        <div class="form-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" name="name" required />
         </div>
-        <form class="form-card" name="grant-mason-vip" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="grant-mason-vip"><p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
-          <div class="fields"><div><label for="vip-name">First Name</label><input id="vip-name" name="first-name" autocomplete="given-name" required></div><div><label for="vip-email">Email Address</label><input id="vip-email" type="email" name="email" autocomplete="email" required></div><div class="full"><button class="btn primary" type="submit">Join the VIP List</button><div class="success">You are on the VIP list. First-edition updates will be sent as they become available.</div></div></div>
-          <p class="fine">Submissions are collected securely through Netlify Forms and should be forwarded to hello@grantmason.site in Netlify notifications.</p>
+        <div class="form-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="contact-subject">Subject</label>
+          <select id="contact-subject" name="subject">
+            <option value="Reader message">Reader message</option>
+            <option value="Book club inquiry">Book club inquiry</option>
+            <option value="Media request">Media request</option>
+            <option value="Speaking inquiry">Speaking inquiry</option>
+            <option value="First edition question">First edition question</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-disclaimer">Messages are routed through the website form so visitors do not need to copy your email address.</p>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <img src="images/logo-trans.png" alt="GM monogram" class="footer-logo" />
+        <p>
+          &copy; 2026 Grant Mason. All rights reserved.
+          &nbsp;&bull;&nbsp;
+          <a href="https://docs.google.com/document/d/e/2PACX-1vTxu74j16pa1ZEths4RAcfIuXgq2YCyYnQt6Kzw3efn6HSHEu-4gWHa5BvmPIv-NFMKQPFpopH0oucG/pub" target="_blank" rel="noopener">Privacy Policy</a>
+        </p>
+        <p class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61590642546391" target="_blank" rel="noopener">Facebook</a>
+          &nbsp;|&nbsp;
+          <a href="https://www.instagram.com/grantmasonauthor/" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
+    </footer>
+    <!-- Modal for gallery images -->
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <span class="close" id="lightbox-close">&times;</span>
+        <h3 id="lightbox-title"></h3>
+        <img id="lightbox-image" src="" alt="Gallery image" />
+        <p id="lightbox-desc"></p>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Chat Widget -->
+    <div id="chat-widget" class="chat-widget">
+      <div class="chat-header">
+        <span>Ask Grant Mason</span>
+        <span id="chat-close" class="chat-close">&times;</span>
+      </div>
+      <div class="chat-body">
+        <div class="chat-starters">
+          <p>Quick questions:</p>
+          <button class="chat-starter" data-question="What is Seersucker &amp; Silence about?">What is Seersucker &amp; Silence about?</button>
+          <button class="chat-starter" data-question="When will the book be released?">When will the book be released?</button>
+          <button class="chat-starter" data-question="How do I reserve a copy?">How do I reserve a copy?</button>
+          <button class="chat-starter" data-question="What do VIP members receive?">What do VIP members receive?</button>
+        </div>
+        <div id="chat-history" class="chat-history"></div>
+        <div class="chat-input-row">
+          <input type="text" id="chat-input" placeholder="Type your question..." />
+          <button id="chat-send" class="btn secondary">Send</button>
+        </div>
+      </div>
+    </div>
+    <div id="chat-button" class="chat-button">Ask</div>
+
+    <!-- VIP Modal Popup -->
+    <div id="vip-modal" class="vip-modal">
+      <div class="vip-modal-content">
+        <span id="vip-modal-close" class="vip-modal-close">&times;</span>
+        <h3>Join the VIP List</h3>
+        <p>Be the first to know about first edition announcements, release dates, and exclusive updates.</p>
+        <form name="vip-modal-form" method="POST" data-netlify="true" class="vip-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="vip-modal-first">First Name</label>
+              <input type="text" id="vip-modal-first" name="first_name" required />
+            </div>
+            <div class="form-group">
+              <label for="vip-modal-last">Last Name</label>
+              <input type="text" id="vip-modal-last" name="last_name" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="vip-modal-email">Email Address</label>
+            <input type="email" id="vip-modal-email" name="email" required />
+          </div>
+          <button type="submit" class="btn primary">Join VIP</button>
         </form>
       </div>
-    </section>
-
-    <section class="section reservation" id="reserve">
-      <div class="inner reservation-card">
-        <div class="reserve-art"><h3>Reserve your<br>first edition.</h3></div>
-        <form class="reserve-form" name="first-edition-reservation" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="first-edition-reservation"><p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
-          <div class="kicker">Reservation list</div><h2 class="section-title" style="font-size:clamp(2.4rem,4.6vw,4.6rem)">Seersucker &amp; Silence</h2><p class="deck">Reserve your place for first-edition announcements and preorder access. This is an interest reservation, not a payment form.</p>
-          <div class="fields"><div><label for="res-name">Full Name</label><input id="res-name" name="full-name" required></div><div><label for="res-email">Email</label><input id="res-email" type="email" name="email" required></div><div><label for="res-phone">Phone</label><input id="res-phone" name="phone" value="" placeholder="Optional"></div><div><label for="res-qty">Preferred Quantity</label><select id="res-qty" name="quantity"><option>1 copy</option><option>2 copies</option><option>3 copies</option><option>4+ copies</option><option>Book club inquiry</option></select></div><div class="full"><label for="res-note">Note</label><textarea id="res-note" name="note" placeholder="Optional note, book club interest, media request, or signing request."></textarea></div><div class="full"><button class="btn dark" type="submit">Submit Reservation</button><div class="success">Your reservation has been received.</div></div></div>
-          <p class="fine">You will receive release and preorder information when available.</p>
-        </form>
-      </div>
-    </section>
-
-    <section class="section quotebook" id="quotebook">
-      <div class="inner">
-        <div class="kicker">Reader engagement</div>
-        <h2 class="section-title" style="color:white">Southern Quotebook</h2>
-        <p class="deck" style="color:rgba(255,255,255,.72)">Type a plain phrase and receive a polished Southern expression. Keep it literary, witty, and shareable.</p>
-        <div class="quote-tool">
-          <div class="form-card"><label for="plainPhrase">Plain phrase</label><input id="plainPhrase" placeholder="Example: I am tired"><div class="actions"><button class="btn primary" id="southernize" type="button">Southernize It</button><button class="btn secondary" id="randomQuote" type="button">Surprise Me</button></div></div>
-          <div class="quote-output"><p id="southernOutput">Some truths arrive dressed for church and still track mud across the floor.</p><div class="social-row"><button id="copyQuote" type="button">Copy Quote</button><a id="shareFacebook" href="https://www.facebook.com/sharer/sharer.php?u=https://grantmason.site/" target="_blank" rel="noopener">Share</a></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact" id="contact">
-      <div class="inner contact-card">
-        <div class="contact-info">
-          <div class="kicker">Contact</div>
-          <h2 class="section-title">Reach Grant Mason.</h2>
-          <p class="deck">For reader notes, book club inquiries, media requests, podcast invitations, speaking opportunities, and first-edition questions.</p>
-          <p><strong>Email:</strong> <a href="mailto:hello@grantmason.site">hello@grantmason.site</a><br><strong>Phone:</strong> <a href="tel:+18438916209">(843) 891-6209</a></p>
-          <div class="social-row"><a href="https://www.facebook.com/profile.php?id=61590642546391" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--line);background:#f8f4eb">Facebook</a><a href="https://www.instagram.com/grantmasonauthor/" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--line);background:#f8f4eb">Instagram</a></div>
-        </div>
-        <form name="grant-mason-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="grant-mason-contact"><p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
-          <div class="fields"><div><label for="contact-name">Name</label><input id="contact-name" name="name" required></div><div><label for="contact-email">Email</label><input id="contact-email" type="email" name="email" required></div><div class="full"><label for="contact-subject">Subject</label><input id="contact-subject" name="subject" required></div><div class="full"><label for="contact-message">Message</label><textarea id="contact-message" name="message" required></textarea></div><div class="full"><button class="btn dark" type="submit">Send Message</button><div class="success">Your message has been submitted.</div></div></div>
-        </form>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-inner"><img class="footer-logo" src="assets/grant-mason-logo-transparent.png" alt="Grant Mason logo"><h2>Grant Mason</h2><p>Memoirist • Writer<br>Seersucker &amp; Silence</p><p><a href="https://www.facebook.com/profile.php?id=61590642546391" target="_blank" rel="noopener">Facebook</a> &nbsp;•&nbsp; <a href="https://www.instagram.com/grantmasonauthor/" target="_blank" rel="noopener">Instagram</a> &nbsp;•&nbsp; <a href="mailto:hello@grantmason.site">hello@grantmason.site</a></p><p>© 2026 Grant Mason. All rights reserved.</p></div>
-  </footer>
-
-  <div class="modal" id="vipModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-card"><button class="close" id="closeModal" aria-label="Close">×</button><img src="assets/favicon.png" alt="GM monogram"><h2 id="modalTitle">Become a Grant Mason VIP</h2><p>Receive advance excerpts, first-edition announcements, private essays, and early preorder access.</p><form name="vip-popup" method="POST" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="vip-popup"><p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p><div class="fields"><div><label for="pop-name">First Name</label><input id="pop-name" name="first-name" required></div><div><label for="pop-email">Email</label><input id="pop-email" type="email" name="email" required></div><div class="full"><button class="btn dark" type="submit">Join VIP</button><div class="success">You are on the list.</div></div></div></form></div>
-  </div>
-
-  <div class="chat" aria-live="polite"><button class="chat-toggle" id="chatToggle" aria-label="Open reader assistant">GM</button><div class="chat-panel" id="chatPanel"><div class="chat-head"><b>Ask Grant Mason</b><br><span>Reader assistant</span></div><div class="chat-body"><div class="suggestions"><button data-answer="Seersucker & Silence is a Southern memoir about privilege, family mythology, silence, collapse, and identity beyond inheritance.">What is the memoir about?</button><button data-answer="Use the First Edition Reservation form on this page to receive preorder and release updates as soon as they are available.">How do I reserve a first edition?</button><button data-answer="Book clubs, media, podcasts, and reader inquiries can use the contact form. Messages route through the site without requiring visitors to copy an email address.">How do I contact Grant Mason?</button></div><div class="answer" id="chatAnswer">Choose a question, or send a message through the contact form below.</div><label for="quickMessage">Quick note</label><textarea id="quickMessage" placeholder="Write your note here, then use the contact form to send it."></textarea><button class="btn dark" type="button" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Open Contact Form</button></div></div></div>
-
-  <script>
-    const menuBtn=document.getElementById('menuBtn'), mobilePanel=document.getElementById('mobilePanel');
-    menuBtn.addEventListener('click',()=>{mobilePanel.classList.toggle('show');menuBtn.setAttribute('aria-expanded',mobilePanel.classList.contains('show'))});
-    mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobilePanel.classList.remove('show')));
-    const modal=document.getElementById('vipModal');
-    const openModal=()=>{ if(!localStorage.getItem('gmVipSeen')){ modal.classList.add('show'); document.body.classList.add('lock'); localStorage.setItem('gmVipSeen','1'); }};
-    setTimeout(openModal,8500);
-    document.querySelectorAll('[data-open-vip]').forEach(b=>b.addEventListener('click',()=>{modal.classList.add('show');document.body.classList.add('lock')}));
-    document.getElementById('closeModal').addEventListener('click',()=>{modal.classList.remove('show');document.body.classList.remove('lock')});
-    modal.addEventListener('click',e=>{if(e.target===modal){modal.classList.remove('show');document.body.classList.remove('lock')}});
-    document.querySelectorAll('form').forEach(form=>{form.addEventListener('submit',()=>{const s=form.querySelector('.success'); if(s) setTimeout(()=>s.style.display='block',200)})});
-    const outputs=[
-      "That truth is wearing Sunday clothes, but I can still see the mud on its shoes.",
-      "I'm tired enough to sleep through a thunderstorm on a tin roof.",
-      "That makes about as much sense as a screen door on a submarine.",
-      "It's hotter than July asphalt after a church picnic.",
-      "Some families pass down silver. Others pass down silence and call it manners.",
-      "That's a story with a pressed collar and a missing button.",
-      "He said it plain enough to rattle the china in the cabinet.",
-      "The past has a way of walking in quiet and sitting wherever it pleases."
-    ];
-    const out=document.getElementById('southernOutput');
-    function southernize(){const v=document.getElementById('plainPhrase').value.trim().toLowerCase();let q=outputs[Math.floor(Math.random()*outputs.length)]; if(v.includes('tired')) q=outputs[1]; else if(v.includes('hot')) q=outputs[3]; else if(v.includes('ridiculous')||v.includes('crazy')||v.includes('nonsense')) q=outputs[2]; else if(v.includes('family')) q=outputs[4]; out.textContent=q;}
-    document.getElementById('southernize').addEventListener('click',southernize); document.getElementById('randomQuote').addEventListener('click',()=>{out.textContent=outputs[Math.floor(Math.random()*outputs.length)]});
-    document.getElementById('copyQuote').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(out.textContent);document.getElementById('copyQuote').textContent='Copied'}catch(e){}});
-    const chatToggle=document.getElementById('chatToggle'), chatPanel=document.getElementById('chatPanel'); chatToggle.addEventListener('click',()=>chatPanel.classList.toggle('show'));
-    document.querySelectorAll('[data-answer]').forEach(b=>b.addEventListener('click',()=>document.getElementById('chatAnswer').textContent=b.dataset.answer));
-  </script>
-</body>
+    </div>
+    
+    <!-- Reamaze Chat Widget -->
+    <script type="text/javascript" async src="https://cdn.reamaze.com/assets/reamaze-loader.js"></script>
+    <script type="text/javascript">
+      // Reamaze widget configuration
+      var _support = _support || { 'ui': {}, 'user': {} };
+      _support['account'] = 'cc3c22ea-9a30-4816-9b50-219b6d3fda6a';
+      _support['ui']['contactMode'] = 'mixed';
+      _support['ui']['enableKb'] = 'true';
+      _support['ui']['mailbox'] = '84367213';
+      _support['ui']['styles'] = {
+        widgetColor: '#020735',
+        gradient: true,
+      };
+      _support['ui']['shoutboxFacesMode'] = '';
+      _support['ui']['widget'] = {
+        allowBotProcessing: 'true',
+        slug: 'grantmason-dot-site',
+        label: {
+          text: 'Hello! I’m the Grant Mason chat assistant. Ask me anything about the memoir, VIP membership, first‑edition reservations, release dates or contact options.',
+          mode: 'notification',
+          delay: 3,
+          duration: 30,
+          primary: 'What is Seersucker & Silence about?',
+          primary2: 'How do I reserve a copy?',
+          primary3: 'When will the book be released?',
+          primary4: 'What do VIP members receive?',
+          primary5: 'How can I contact you?',
+          secondary: 'Exit',
+          sound: true,
+        },
+        position: 'bottom-right'
+      };
+      _support['ui']['overrides'] = _support['ui']['overrides'] || {};
+      _support['ui']['overrides']['confirmationMessage'] = 'Thank you for your message.\n\nI\'m grateful you stopped by. Your message has been received, and I\'ll respond as soon as possible.\n\nWhile you\'re here, be sure to join the Grant Mason VIP List to receive exclusive excerpts from Seersucker & Silence, first-edition announcements, release updates, and early access to future books.\n\nEvery story begins with a conversation. I look forward to hearing yours.\n\n— Grant Mason';
+      _support['apps'] = {
+        recentConversations: {},
+        faq: { 'enabled': true }
+      };
+    </script>
+  </body>
 </html>
